@@ -10,17 +10,17 @@ const commonData = {
             }  ,
             {
                 name:"Service",
-                path:"/",
+                path:"aboutUs",
                 sub:[]
             }  ,
             {
                 name:"Branding",
-                path:"/",
+                path:"WhyChooseUs",
                 sub:[]
             }  ,
             {
                 name:"Contact Us",
-                path:"/",
+                path:"Cta",
                 sub:[]
             }  ,
         ],

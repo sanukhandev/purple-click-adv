@@ -5,7 +5,7 @@ import data from '../../Data/Home';
 class WhyChooseUs extends Component {
   render() {
     return (
-        <section className="service-one go-top">
+        <section className="service-one go-top" id={'WhyChooseUs'}>
           <div className="container">
             <div className="block-title text-center">
               <p><span>{data.whatWeDo.title}</span></p>

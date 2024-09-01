@@ -930,6 +930,11 @@ h6 {
 	padding-bottom: 25px;
 }
 
+.stricked-menu .main-nav__navigation-box>li>a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+	text-decoration: none;
+	color: white !important;
+}
+
 .stricked-menu .main-nav__right .thm-btn {
 	background-color: #fff;
 	color: var(--thm-black);

@@ -1,56 +1,62 @@
-const publicUrl = process.env.PUBLIC_URL + '/'
+const publicUrl = process.env.PUBLIC_URL + '/';
 const HomeData = {
     bannerBG: publicUrl + 'assets/images/backgrounds/banner-bg-1-1.png',
-    bannerMockUp : publicUrl+"assets/images/resources/banner-1-1.png",
+    bannerMockUp : publicUrl + "assets/images/resources/banner-1-1.png",
     ReadMore:{
         text:"Discover Now",
-        path:"/service",
+        path:"/services",
         icon:"fa-angle-double-right"
     },
-    bannerText: "<h3><span>Discover The </span> <br />First Media <br />  <em>Adaptable</em> &amp; <em>Innovative</em></h3> <p>Publishing &amp;  Advertising Solutions, Keeping clients ahead of market trends.</p>",
+    bannerText: "<h3><span>Empower Your </span> <br />Brand with <br />  <em>Innovative</em> &amp; <em>Artistic</em> Solutions</h3> <p>Publishing &amp; Advertising Services, Elevating Your Brand to Global Standards.</p>",
     aboutUs:{
-        bg:publicUrl+"assets/images/shapes/about-two-bg.png",
-        mock:publicUrl+"assets/images/resources/cta-2-1.png",
-        title:"What We Do",
-        subTitle: "We Offer Best Soluation <br /> For Your Business",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incid idunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi ut aliquip exea commodo consequat.",
+        bg:publicUrl + "assets/images/shapes/about-two-bg.png",
+        mock:publicUrl + "assets/images/resources/cta-2-1.png",
+        title:"Our Expertise",
+        subTitle: "We Offer Comprehensive Solutions <br /> For Your Business Success",
+        description: "At First Media, we combine passion, experience, and creativity to deliver exceptional branding, graphic design, and advertising services that resonate with your audience and elevate your business.",
         pointers:[
             {
                 icon:"far fa-leaf",
-                title:"Manage Your Project",
-                subtext:"Consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+                title:"Innovative Branding",
+                subtext:"From brand naming to logo design, we create identities that are memorable and legally protected."
             },
             {
                 icon:"far fa-laptop-code",
-                title:"Business & Data Analytics",
-                subtext:"Consectetur adipisicing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+                title:"Creative Graphic Design",
+                subtext:"Our artistic designs convey powerful messages across all platforms, ensuring your brand stands out."
             }
         ]
     },
+    CTA: {
+        title:"Unleash Your Brand's Potential",
+        subtext:"Bring your vision to life with innovative strategies and creative solutions. Elevate your business today.",
+        buttonText:"Contact Us",
+        buttonPath:"/contact"
+    },
     whatWeDo:{
-        title:"Why Like Us",
-        subText:"Success Your Business With Establish Agency",
+        title:"Why Choose Us",
+        subText:"Leading Your Business with Proven Strategies and Creative Excellence",
         services:[
             {
-                title:"Business Strategy & Market Research",
-                icon:publicUrl+"assets/images/shapes/service-i-1.png",
-                prolong:"Improve Business",
-                description:"Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmod tempor incid dunt utlab ore et dolore magna aliqua. Ut enim ad minim veniam weay in the sun."
+                title:"Branding & Identity",
+                icon:publicUrl + "assets/images/shapes/service-i-1.png",
+                prolong:"Empower Your Brand",
+                description:"We craft unique brand identities that not only protect your innovations but also establish your business authority in the market."
             },
             {
-                title:"Business Strategy & Market Research",
-                icon:publicUrl+"assets/images/shapes/service-i-2.png",
-                prolong:"Improve Business",
-                description:"Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmod tempor incid dunt utlab ore et dolore magna aliqua. Ut enim ad minim veniam weay in the sun."
+                title:"Graphic Design Excellence",
+                icon:publicUrl + "assets/images/shapes/service-i-2.png",
+                prolong:"Visually Impactful",
+                description:"Our designs go beyond aesthetics, delivering rich, cross-platform visuals that speak volumes about your brand."
             },
             {
-                title:"Business Strategy & Market Research",
-                icon:publicUrl+"assets/images/shapes/service-i-3.png",
-                prolong:"Improve Business",
-                description:"Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed do eiusmod tempor incid dunt utlab ore et dolore magna aliqua. Ut enim ad minim veniam weay in the sun."
+                title:"Comprehensive Advertising",
+                icon:publicUrl + "assets/images/shapes/service-i-3.png",
+                prolong:"Reach Your Audience",
+                description:"From traditional to digital advertising, we ensure your brand gets the visibility and recognition it deserves, driving growth and success."
             }
         ]
     }
-}
+};
 
-export default HomeData
+export default HomeData;

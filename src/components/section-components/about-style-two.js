@@ -4,7 +4,7 @@ import data from '../../Data/Home';
 class AboutUs extends Component {
     render() {
         return (
-            <section className="about-two go-top">
+            <section className="about-two go-top" id={'aboutUs'}>
                 <img src={data.aboutUs.bg} alt="background" className="about-two__bg" />
                 <div className="container">
                     <img src={data.aboutUs.mock} alt="mock" className="about-two__moc" />

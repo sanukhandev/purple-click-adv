@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import data from '../../Data/common';
 
 class Navbar extends Component {
@@ -18,8 +18,8 @@ class Navbar extends Component {
                             <ul className="main-nav__navigation-box">
                                 {
                                     data.navbar.menu.map(menu => (
-                                        <li className="dropdown" key={menu.name}>
-                                            <Link to={menu.path}>{menu.name}</Link>
+                                        <li className={menu.sub.length > 0 ? 'dropdown':''} key={menu.name}>
+                                            <Link to={menu.path} smooth={true} duration={500}>{menu.name}</Link>
                                             {
                                                 menu.sub && menu.sub.length > 0 && (
                                                     <ul>
