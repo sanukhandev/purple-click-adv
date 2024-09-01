@@ -1,6 +1,6 @@
 const publicUrl = process.env.PUBLIC_URL + '/'
 const commonData = {
-    logo: publicUrl + "/assets/images/logo-white.png",
+    logo: publicUrl + "assets/images/logo-white.png",
     navbar:{
         menu:[
             {
