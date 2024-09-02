@@ -30,7 +30,7 @@ const commonData = {
         logo: publicUrl+"assets/images/logo-dark.png",
         mock:publicUrl + "assets/images/resources/footer-1-1.png",
         about: {
-            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod",
+            text: "Email us @ info@purpleclickads.com",
             socialLinks: [
                 {
                     platform: "facebook",
@@ -57,13 +57,13 @@ const commonData = {
         contact: {
             address: {
                 title: "Address",
-                text: "205, Khola Street Name, New York, USA",
+                text: "Dubai United Arab Emirates",
                 icon: "far fa-map-marked"
             },
             phone: {
                 title: "Phone",
-                text: "+82 123 456 89",
-                url: "tel:+82-123-456-89",
+                text: "+971 55 866 2770",
+                url: "tel:+971558662770",
                 icon: "far fa-phone"
             }
         },
