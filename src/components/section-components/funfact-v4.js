@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-import parse from 'html-react-parser';
-import { Link } from 'react-router-dom';
 
 class FunfactV4 extends Component {
 
     render() {
-
-        let publicUrl = process.env.PUBLIC_URL+'/'
-
     return <section className="funfact-one funfact-one__home-two funfact-one__about-page">
 			  <div className="container">
 			    <div className="row high-gutter">
