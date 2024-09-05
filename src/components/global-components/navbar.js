@@ -19,7 +19,7 @@ class Navbar extends Component {
                                 {
                                     data.navbar.menu.map(menu => (
                                         <li className={menu.sub.length > 0 ? 'dropdown':''} key={menu.name}>
-                                            <Link to={menu.path} smooth={true} duration={500}>{menu.name}</Link>
+                                            <Link to={menu.path} >{menu.name}</Link>
                                             {
                                                 menu.sub && menu.sub.length > 0 && (
                                                     <ul>
