@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Service from "./Pages/Service";
 import ContactPage from "./components/section-components/contact-page";
 import About from "./Pages/About"; // Import Contact component
+
 class Root extends Component {
     render() {
         return (
-            <HashRouter basename="/">
+            <Router basename="/">
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/about" component={About} />
@@ -17,7 +18,7 @@ class Root extends Component {
                     <Route exact path="/contact" component={Contact} />
                     <Route exact path="/contact2" component={ContactPage} />
                 </Switch>
-            </HashRouter>
+            </Router>
         );
     }
 }
